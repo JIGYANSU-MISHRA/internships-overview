@@ -42,7 +42,6 @@ html, body, #root {
   gap: 2px;
   width: 80vw;
   max-width: 100vw;
-  margin-bottom: 40px;
   box-sizing: border-box;
   justify-items: center;
 }
@@ -68,4 +67,15 @@ html, body, #root {
   max-width: 320px;
   min-width: 220px;
   margin: 0 0;
+}
+
+/* Add spacing between cards in mobile view */
+@media (max-width: 600px) {
+  .internships-cards-row {
+    gap: 16px;
+    padding: 0 0 0 0;
+  }
+  .internship-card {
+    margin-bottom: 16px;
+  }
 }

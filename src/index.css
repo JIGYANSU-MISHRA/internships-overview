@@ -66,3 +66,51 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Responsive Design Improvements */
+
+/* Mobile: up to 600px */
+@media (max-width: 600px) {
+  body {
+    padding: 0 8px;
+    font-size: 15px;
+    min-width: unset;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.95em;
+  }
+}
+
+/* Tablet: 601px to 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 0 24px;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  button {
+    padding: 0.55em 1.1em;
+    font-size: 1em;
+  }
+}
+
+/* Desktop: 1025px and up (Mac/Windows) */
+@media (min-width: 1025px) {
+  body {
+    padding: 0 64px;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 3.2em;
+  }
+  button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+  }
+}
